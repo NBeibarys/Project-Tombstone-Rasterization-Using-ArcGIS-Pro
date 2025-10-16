@@ -2,14 +2,15 @@
 This project demonstrates practical GIS data creation, cleaning, and rasterization techniques using ArcGIS Pro. The goal was to produce a 1-meter resolution raster map of Tombstone, Arizona, encoding land-use classes for soil, roads, and buildings.
 
 ## Project Structure
-- `data.csv` -
-- `Data Sources` - Rotten Tomatoes, IMDb, Metacritic, Box Office Mojo.
+- `Tombstone.pdf` - Final map output including legend, scale, and author details.  
+- `Data Sources` – Vector features from OpenStreetMap and base layers from ArcGIS Online.  
 - `Deliverable` - A 3-part data visualization illustrating the relationship between critical reception, audience sentiment, and return on investment (ROI).
 
 ## Key Insights
-- Identified a post-2019 divergence between audience and critic ratings, signaling early reputation erosion.
-- Analyzed revenue data to reveal how financial performance lagged after the drop in critical reception.
-- Demonstrated that Marvel’s ROI peaked during Phase 3 but declined steadily through Phases 4–5, suggesting diminishing brand efficiency.
+- Repaired invalid geometries in building features and reconstructed missing areas using the *Reshape* tool.  
+- Created new line feature classes for roads, ensuring consistent projections and attribute structures.  
+- Applied *Feature to Raster*, *Reclassify*, and *Raster Calculator* tools to convert and combine vector layers into a 1 m resolution raster dataset.  
+- Produced a clean raster map suitable for further land-use or environmental analysis.
   
 ## Tools & Technologies
  - **ArcGIS Pro - Raster Calculator, Reclassify** 
