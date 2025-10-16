@@ -2,7 +2,8 @@
 This project demonstrates practical GIS data creation, cleaning, and rasterization techniques using ArcGIS Pro. The goal was to produce a 1-meter resolution raster map of Tombstone, Arizona, encoding land-use classes for soil, roads, and buildings.
 
 ## Project Structure
-- `Tombstone.pdf` - Final map output including legend, scale, and author details.  
+- `Tombstone.pdf` - Final map output including legend, scale, and author details.
+- `Tombstone.mpkx` - ArcGIS Pro project file containing all feature classes, rasters, and map layouts.
 - `Data Sources` – Vector features from OpenStreetMap and base layers from ArcGIS Online.  
 - `Deliverable` - A 3-part data visualization illustrating the relationship between critical reception, audience sentiment, and return on investment (ROI).
 
