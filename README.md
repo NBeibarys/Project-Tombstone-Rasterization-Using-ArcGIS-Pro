@@ -4,7 +4,6 @@ This project demonstrates practical GIS data creation, cleaning, and rasterizati
 ## Project Structure
 - `Tombstone.pdf` - Final map output including legend, scale, and author details.
 - `Tombstone.mpkx` - ArcGIS Pro project file containing all feature classes, rasters, and map layouts.
-- `Data Sources` – Vector features from OpenStreetMap and base layers from ArcGIS Online.  
 - `Deliverable` - A 3-part data visualization illustrating the relationship between critical reception, audience sentiment, and return on investment (ROI).
 
 ## Key Insights
